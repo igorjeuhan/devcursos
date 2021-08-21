@@ -1,0 +1,7 @@
+devcursos
+
+Página inicial:
+	Cards com cada curso
+			Curso: Título, Descrição, categoria: Mobile, Web front e Web back, nível
+	Tabela cursos
+	Tabela Produtor: Nome, Especialidade, Contato, Docente ou Produtor Digital
