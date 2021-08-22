@@ -2,7 +2,7 @@
 
 @section('header')
 
-    <h1 class="text-copy">Aprenda sobre programação na Dev Cursos hoje.</h1>
+    <h1 class="text-copy">Aprenda programação na Dev Cursos hoje.</h1>
     <h2 class="text-copy2">Expanda seu conhecimento e com ele suas chances no mercado de trabalho.</h2>
     <button class="btn-comece">Comece agora</button>
 
@@ -53,4 +53,9 @@
         </div>
     </section>
 
+@endsection
+
+
+@section('rodape')
+    <p>Todos os direitos reservados <strong> Dev Cursos </strong> &#169 - 2021.</p>
 @endsection

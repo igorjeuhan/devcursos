@@ -32,5 +32,8 @@
         @yield('cards')
     </section>
 
+    <footer class="rodape">
+        @yield('rodape')
+    </footer>
 </body>
 </html>
