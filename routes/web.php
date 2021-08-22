@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\Admin\CursoController;
+use App\Http\Controllers\Admin\FormularioController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,3 +21,4 @@ use App\Http\Controllers\Admin\CursoController;
 // });
 
 Route::get('/', [CursoController::class, 'cursos']);
+Route::get('/crud', [FormularioController::class, 'formulario']);

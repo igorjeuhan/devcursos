@@ -10,6 +10,6 @@ class CursoController extends Controller
     public function cursos()
     {
         $titulo = 'Dev Cursos';
-        return view('admin.cursos.index', compact('titulo'));
+        return view('Admin.cursos.index', compact('titulo'));
     }
 }

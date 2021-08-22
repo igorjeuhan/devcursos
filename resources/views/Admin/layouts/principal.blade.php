@@ -6,17 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/settings.css">
-    <link rel="stylesheet" href="css/color.css">
+    <link rel="stylesheet" href="css/colors.css">
     <link rel="stylesheet" href="css/principal.css">
     <title>Dev Cursos</title>
 </head>
 <body>
 
     <nav class="menu">
-        <h1>Dev Cursos Online</h1>
+        <h1 class="hidden-menu">Dev Cursos</h1>
         <ul>
-            <li>Inicio</li>
-            <li>Cursos</li>
+            <li class="hidden-menu">Inicio</li>
+            <li class="hidden-menu">Cursos</li>
             <li>Cadastre-se</li>
             <li><button class="btn-entrar">Entrar</button></li>
         </ul>

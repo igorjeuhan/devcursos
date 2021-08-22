@@ -1,4 +1,4 @@
-@extends('admin.layouts.principal')
+@extends('Admin.layouts.principal')
 
 @section('header')
 
@@ -45,7 +45,20 @@
             <p class="desc-c">
                 Nesse curso
                 você aprenderá os conceitos básicos de HTML5, CSS3 e
-                um pouco de JavaScript, que te deixará com uma base sólida
+                JavaScript, que te deixará com uma base sólida
+                para o mercado de trabalho.
+            </p>
+            <span class="categoria-curso">Web Front-end</span>
+            <span class="nivel-curso">Nível iniciante</span>
+        </div>
+        <div class="card">
+            <h1 class="t-curso">Web Front-end Iniciante</h1>
+            <span class="divider"></span>
+            <h2 class="produtor">Produtor: Igor Jeuhan</h2>
+            <p class="desc-c">
+                Nesse curso
+                você aprenderá os conceitos básicos de HTML5, CSS3 e
+                JavaScript, que te deixará com uma base sólida
                 para o mercado de trabalho.
             </p>
             <span class="categoria-curso">Web Front-end</span>
