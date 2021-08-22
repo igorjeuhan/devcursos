@@ -2,6 +2,10 @@ devcursos
 
 Página inicial:
 	Cards com cada curso
-			Curso: Título, Descrição, categoria: Mobile, Web front e Web back, nível
+			Curso: Título, Descrição, categoria: Mobile, 
+			       Web front-end e Web back-end, nível, produtor
 	Tabela cursos
 	Tabela Produtor: Nome, Especialidade, Contato, Docente ou Produtor Digital
+
+background color: #FBD874
+contrast color: #F05F5F
