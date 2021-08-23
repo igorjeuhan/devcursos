@@ -3,7 +3,7 @@ devcursos
 Página inicial:
 	Cards com cada curso
 			Curso: Título, Descrição, categoria: Mobile, 
-			       Web front-end e Web back-end, nível, produtor
+			       Web front-end, Web back-end e Desktop, nível, produtor
 	Tabela cursos
 	Tabela Produtor: Nome, Especialidade, Contato, Docente ou Produtor Digital
 

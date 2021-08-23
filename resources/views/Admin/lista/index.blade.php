@@ -24,7 +24,7 @@
                 <td>Igor Jeuhan</td>
                 <td>
                     <a href="" class="btn-act"><img class="icon-act" src="/images/icons/edit.svg" alt=""></a>
-                    <button class="btn-act"><img class="icon-act" src="/images/icons/save.svg" alt=""></button>
+                    <button class="btn-act"><img class="icon-act" src="/images/icons/delete.svg" alt=""></button>
                 </td>
             </tr>
         </tbody>
