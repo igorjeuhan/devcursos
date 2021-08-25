@@ -15,12 +15,14 @@ class CreateCoursesTable extends Migration
     {
         Schema::create('courses', function (Blueprint $table) {
             $table->id(); //cria chave primária chamada ID
+            $table->integer('id_creator')->unsigned();
+            $table->foreign('id_creator')->references('id')->on('creators');
             $table->string('titulo', 100)->unique();
             $table->string('descricao', 200);
             $table->char('categoria', 4);
-            $table->int('nivel', 2);
-            $table->char('produtor', 2);
-            $table->$table->timestamps(); //Cria informação de quando foi criado um registro e quando foi atualizado
+            $table->integer('nivel');
+            $table->integer('produtor',);
+            $table->timestamps(); //Cria informação de quando foi criado um registro e quando foi atualizado
         });
     }
 

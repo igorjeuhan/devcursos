@@ -14,17 +14,18 @@
 
 @section('formulario')
 
-    <form action="#">
+    <form action="{{route('cursos.adicionar')}}" method="POST">
+        @csrf
         <label for="titulo">Título</label>
-        <input id="titulo" name="titulo" class="focus" type="text" placeholder="Exemplo: Web Front-end com React JS...">
+        <input id="titulo" name="titulo" id="titulo" class="focus" type="text" placeholder="Exemplo: Web Front-end com React JS...">
         <label for="descricao">Descrição</label>
         <textarea class="focus" name="descricao" id="descricao" cols="30" rows=""></textarea>
         <label for="categoria">Categoria</label>
         <select class="focus" name="categoria" id="categoria">
-            <option value="1">Mobile</option>
-            <option value="2">Web Front-end</option>
-            <option value="3">Web Back-end</option>
-            <option value="4">Desktop</option>
+            <option value="m">Mobile</option>
+            <option value="wf">Web Front-end</option>
+            <option value="wb">Web Back-end</option>
+            <option value="d">Desktop</option>
         </select>
         <label for="nivel">Nível</label>
         <select class="focus" name="nivel" id="nivel">
@@ -34,7 +35,7 @@
         </select>
         <label for="produtor">Produtor</label>
         <select class="focus" name="produtor" id="produtor">
-            <option value="id-produtor">Igor Jeuhan</option>
+            <option value="1">Igor Jeuhan</option>
         </select>
         <div class="buttons">
         <a href="" class="form-button" id="cancelar">Cancelar</a>

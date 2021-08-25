@@ -38,32 +38,21 @@
 @section('cards')
     <h1>Nossos cursos</h1>
     <section class="cards-content">
-        <div class="card">
-            <h1 class="t-curso">Web Front-end Iniciante</h1>
-            <span class="divider"></span>
-            <h2 class="produtor">Produtor: Igor Jeuhan</h2>
-            <p class="desc-c">
-                Nesse curso
-                você aprenderá os conceitos básicos de HTML5, CSS3 e
-                JavaScript, que te deixará com uma base sólida
-                para o mercado de trabalho.
-            </p>
-            <span class="categoria-curso">Web Front-end</span>
-            <span class="nivel-curso">Nível iniciante</span>
-        </div>
-        <div class="card">
-            <h1 class="t-curso">Web Front-end Iniciante</h1>
-            <span class="divider"></span>
-            <h2 class="produtor">Produtor: Igor Jeuhan</h2>
-            <p class="desc-c">
-                Nesse curso
-                você aprenderá os conceitos básicos de HTML5, CSS3 e
-                JavaScript, que te deixará com uma base sólida
-                para o mercado de trabalho.
-            </p>
-            <span class="categoria-curso">Web Front-end</span>
-            <span class="nivel-curso">Nível iniciante</span>
-        </div>
+        @forelse ($courses as $course)
+            <div class="card">
+                <h1 class="t-curso">{{$course->titulo}}</h1>
+                <span class="divider"></span>
+                <h2 class="produtor">{{$course->produtor}}</h2>
+                <p class="desc-c">
+                    {{$course->descricao}}
+                </p>
+                <span class="categoria-curso">{{$course->categoria}}</span>
+                <span class="nivel-curso">{{$course->nivel}}</span>
+            </div>
+        @empty
+            <h4>Não existem cursos cadastrados</h4>
+        @endforelse
+
     </section>
 
 @endsection

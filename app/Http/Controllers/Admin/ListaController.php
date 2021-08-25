@@ -9,6 +9,6 @@ class ListaController extends Controller
 {
     public function lista()
     {
-        return view('Admin.lista.index');
+        return view('admin.lista.index');
     }
 }

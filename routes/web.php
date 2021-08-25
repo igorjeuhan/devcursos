@@ -23,4 +23,6 @@ use App\Http\Controllers\Admin\ListaController;
 
 Route::get('/', [CursoController::class, 'cursos']);
 Route::get('/crud', [FormularioController::class, 'formulario']);
-Route::get('/lista', [ListaController::class, 'lista']);
+Route::get('/lista', [ListaController::class, 'lista'])->name('cursos.listar');
+
+Route::post('/salvar', [FormularioController::class, 'adicionar'])->name('cursos.adicionar');
