@@ -21,7 +21,6 @@ class CreateCoursesTable extends Migration
             $table->string('descricao', 200);
             $table->char('categoria', 4);
             $table->integer('nivel');
-            $table->integer('produtor',);
             $table->timestamps(); //Cria informação de quando foi criado um registro e quando foi atualizado
         });
     }

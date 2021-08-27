@@ -36,6 +36,8 @@
         <label for="produtor">Produtor</label>
         <select class="focus" name="produtor" id="produtor">
             <option value="1">Igor Jeuhan</option>
+            <option value="2">Carlos Henrique</option>
+            <option value="3">Pedro Álvares</option>
         </select>
         <div class="buttons">
         <a href="" class="form-button" id="cancelar">Cancelar</a>

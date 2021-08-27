@@ -16,10 +16,7 @@ class FormularioController extends Controller
 
     public function adicionar(Request $request)
     {
-        $curso = new Course();
-        $curso->titulo = $request->titulo;
-
-        $curso->save();
+        Course::create($request->all());
 
         return redirect()->route('cursos.listar');
     }
